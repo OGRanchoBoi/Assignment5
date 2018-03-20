@@ -1,0 +1,60 @@
+
+table {
+    width: 600px;
+}
+
+th {
+    border: solid 1px;
+}
+
+tr {
+    border: solid 1px;
+}
+
+td {
+    border: solid 1px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+
+#getAllCustomers {
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+   width: 600px;
+}
+
+#getOrderHistory {
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+    width: 600px;
+}
+
+#getCustomersOrder {
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+    width: 600px;
+}
+
+#header {
+    background-color: #006400;
+}
+
+button {
+    width: 600px;
+    height: 50px;
+}
+
+select {
+    width: 600px;
+}
+
+input {
+    width: 600px;
+}

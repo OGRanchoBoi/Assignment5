@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Module 5 Assignment</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Assignment5.css" />
+    <script src="js/Assignment5.js"></script>
+    
+</head>
+
+<body>
+    <section id="header" >
+    
+    <h1>Module 5 Assignment</h1>
+    <hr>
+    </section>
+    
+    <select onchange="MenuChoice();" id="menu">
+        <option>Please select an option</option>
+        <option>View Customers</option>
+        <option>View Order History</option>
+        <option>View Customer Order</option>
+    </select>
+    <br>
+    <br>
+    
+    <section id="getAllCustomers">
+    <label>Click below to view customers</label>
+    <br>
+    <br>
+    <button onclick="GetCustomers();">Click to View customers</button>
+    <p id="displayAllCustomers"></p>
+    </section>
+    
+    <section id="getOrderHistory">
+    <label>Enter Customer ID to view order history</label>
+    <br>
+    <br>
+    <input id="inputOrderHistory">
+    <br>
+    <br>
+    <button onclick="OrderHistory();">Click for Order History</button>
+    <p id="displayOrderHistory"></p>
+    </section>
+    
+    <section id="getCustomersOrder">
+    <label>Enter Customer ID to get orders</label>
+    <br>
+    <br>
+    <input id="inputAllCustomers">
+    <br>
+    <br>
+    <button onclick="CustomerOrder();">Click for Customer Order</button>
+    <p id="displayCustOrder"></p>
+    </section>
+    
+</body>
+    
+    
+</html>
